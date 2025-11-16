@@ -6,7 +6,7 @@ box.addEventListener("click", () => {
     score++;
     scoreDisplay.textContent = score;
 
-    let newX = Math.random() * (window.innerWidth - 100);
+    let newX = Math.random() * (window.innerWidth - 90);
     let newY = Math.random() * (window.innerHeight - 100);
 
     box.style.left = newX + "px";
